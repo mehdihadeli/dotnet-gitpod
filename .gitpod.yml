@@ -4,7 +4,6 @@ image:
 tasks:
   - name: Restore & Build
     init: |
-      sudo apt install libnss3-tools
       dotnet restore
       dotnet build
 
